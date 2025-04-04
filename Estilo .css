@@ -145,3 +145,68 @@ footer {
 .pet-form button:hover {
     background-color: #cc5500;
 }
+
+
+.colaboradores {
+    padding: 40px 20px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.colaboradores h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cards-colaboradores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-colab {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 200px;
+    transition: transform 0.2s ease;
+}
+
+.card-colab:hover {
+    transform: scale(1.05);
+}
+
+.card-colab img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card-colab h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.card-colab p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.card-colab a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.card-colab a:hover {
+    background-color: #cc5500;
+}
