@@ -252,3 +252,50 @@ footer {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.4);
 }
+
+.login-area {
+    background-color: #fff
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 12px:
+    box-shadow: 0 012px rgba(0,0,0,0,1)
+    text-align: center;
+}
+
+.login-area input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.login-area button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.perfil {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.perfil img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.perfil h3 {
+    font-size: 22px;
+    margin: 5px 0;
+}
