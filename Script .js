@@ -35,6 +35,25 @@ document.getElementById("formPet").addEventListener("submit", function(e) {
         nome, descricao, foto, localizacao, endereco, telefone, email
     });
 
-    // Limpa o formulário depois de registrar
     this.reset();
+});
+
+
+document.getElementById("loginForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const nome = document.getElementById("nome").value;
+    const email = document.getElementById("email").value;
+    const celular = document.getElementById("celular").value;
+    const foto = document.getElementById("foto").value;
+
+    // Exibe os dados
+    document.getElementById("nomePerfil").innerText = nome;
+    document.getElementById("emailPerfil").innerText = email;
+    document.getElementById("celularPerfil").innerText = celular;
+    document.getElementById("fotoPerfil").src = foto;
+
+    // Alterna visibilidade
+    document.getElementById("loginArea").style.display = "none";
+    document.getElementById("perfil").style.display = "block";
 });
