@@ -1,0 +1,6 @@
+<div class="fundo">
+    <div class="janela">
+        <h2>Minha Janela Flutuante</h2>
+        <p>Conteúdo aqui dentro. Pode ser um formulário, aviso, ou o que quiser!</p>
+    </div>
+</div>
